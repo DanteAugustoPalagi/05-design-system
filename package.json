@@ -1,0 +1,25 @@
+{
+  "name": "05-design-system",
+  "version": "1.0.0",
+  "description": "- [ ] Text\r - [ ] Heading\r - [ ] Box\r - [ ] Button\r - [ ] TextInput\r - [ ] TextArea\r - [ ] CheckBox\r - [ ] Avatar\r - [ ] MultiStep",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.12.4"
+  },
+  "dependencies": {
+    "@storybook/addon-a11y": "^6.5.12",
+    "sass": "^1.71.1"
+  }
+}
