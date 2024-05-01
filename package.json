@@ -20,6 +20,9 @@
   },
   "dependencies": {
     "@storybook/addon-a11y": "^6.5.12",
+    "git-up": "^7.0.0",
+    "git-url-parse": "^14.0.0",
+    "parse-url": "^9.2.0",
     "sass": "^1.71.1"
   }
 }
